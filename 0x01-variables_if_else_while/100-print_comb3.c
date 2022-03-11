@@ -1,24 +1,25 @@
 #include <stdio.h>
 /**
- * main - prints all posible combinations of two digits
- *
- * Return: if runs successfully return 0
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
-int i;
-int j;
+int n, m;
 
-for (i = 48; i < 58; i++)
+for (n = 48; n <= 56; n++)
 {
-for (j = 48; j < 58; j++)
+for (m = 49; m <= 57; m++)
 {
-putchar(i);
-putchar(j);
-if (i != 57 || j != 57)
+if (m > n)
+{
+putchar(n);
+putchar(m);
+if (n != 56 || m != 57)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
