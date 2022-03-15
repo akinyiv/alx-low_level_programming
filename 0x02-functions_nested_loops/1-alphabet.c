@@ -1,23 +1,18 @@
-#include <stdio.h>
+
 #include "main.h"
 
 /**
- * main - calls function print_alphabet
- *
  * print_alphabet - prints lowercase alphabet
  *
- * Return: if runs successfully return 0
+ * Return: nill
  */
-int main(void)
+void print_alphabet(void)
 {
-char ch;
-ch = 'a';
-while (ch <= 'z')
+char c = 'a';
+int i;
+for (i = 0; i < 26; i++)
 {
-_putchar(ch);
-ch++;
+_putchar(c + i);
 }
-int main(void)
-{
-return (0);
+_putchar(10);
 }
