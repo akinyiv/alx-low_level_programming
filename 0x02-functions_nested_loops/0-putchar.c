@@ -1,19 +1,21 @@
 #include <stdio.h>
-#include <ctype.h>
 #include "main.h"
 
 /**
+ * main - main entry
+ *
  * _putchar - prints _putchar followed by a newline
  *
  * Return: Always 0 (Success)
  */
-int _putchar(char c);
+int main(void)
 {
-char word[] = "_putchar";
-int i;
-for (i = 0; i < 9; i++)
+char s[9] = "_putchar";
+int i = 0;
+while (i < 8)
 {
-_putchar(word[i]);
+_putchar(s[i]);
+i++;
 }
 _putchar('\n');
 return (0);
