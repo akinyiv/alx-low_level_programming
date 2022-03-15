@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - prints _putchar followed by a newline
+ * _putchar - prints _putchar followed by a newline
  *
  * Return: Always 0 (Success)
  */
