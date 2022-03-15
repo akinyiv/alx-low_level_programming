@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-char str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+char word[] = "_putchar";
 int i;
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0; i < 9; i++)
 {
-putchar(str[i]);
+_putchar(word[i]);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
