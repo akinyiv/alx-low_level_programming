@@ -5,16 +5,16 @@
 /**
  * main - prints _putchar followed by a newline
  *
- * Return: Always 0 (Success)
+ * Return: if runs successfully return 0
  */
-int _putchar(char c);
+int main(void)
 {
-char word[] = "_putchar";
+char str[] = {95, 112, 117, 116, 99, 104, 97, 114};
 int i;
-for (i = 0; i < 9; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
-_putchar(word[i]);
+putchar(str[i]);
 }
-_putchar('\n');
+putchar('\n');
 return (0);
 }
