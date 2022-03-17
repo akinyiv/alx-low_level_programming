@@ -1,21 +1,22 @@
 #include "main.h"
 
 /**
- *print_most_numbers - prints most except 2 and 4.
- *
- *Return: void.
+ * more_numbers - prints numbers between 0 to 14
+ * 10 times.
+ * Return: no return.
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
-int i;
+int i, ch;
 
 for (i = 0; i < 10; i++)
 {
-if ((i == 2) || (i == 4))
+for (ch = 0; ch < 15; ch++)
 {
-continue;
-}
-_putchar('0' + i);
+if (ch >= 10)
+_putchar((ch / 10) + 48);
+_putchar((ch % 10) + 48);
 }
 _putchar('\n');
+}
 }
