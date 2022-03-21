@@ -17,6 +17,7 @@ while (*str != '\0')
 _puts(str);
 i++;
 str++;
+
 }
-_putchar('\n');
+putchar('\n');
 }
