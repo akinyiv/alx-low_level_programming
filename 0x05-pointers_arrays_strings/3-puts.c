@@ -20,5 +20,4 @@ str++;
 
 }
 putchar('\n');
-return (i);
 }
