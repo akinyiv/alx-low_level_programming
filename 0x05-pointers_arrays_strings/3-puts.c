@@ -8,7 +8,6 @@
  */
 
 void _puts(char *str)
-
 {
 int i;
 
@@ -19,7 +18,5 @@ _puts(str);
 i++;
 str++;
 }
-putchar('\n');
-
-return (0);
+_putchar('\n');
 }
