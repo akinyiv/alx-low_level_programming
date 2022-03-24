@@ -2,3 +2,4 @@
 1- Function that concatenates two strings.
 2- Function that copies a string.
 3- Function that compares two strings.
+4- Function that reverses the content of an array of integers.
