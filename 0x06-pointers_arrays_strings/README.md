@@ -6,6 +6,6 @@
 5- Function that changes all lowercase letters of a string to uppercase.
 6- Function that capitalizes all words of a string.
 7- Function that encodes a string into 1337.
-
+8- Function that encodes a string using rot13.
 
 
