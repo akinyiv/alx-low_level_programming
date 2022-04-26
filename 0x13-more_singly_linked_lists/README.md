@@ -10,3 +10,4 @@
 10- Function that deletes the node at index index of a listint_t linked list.
 11- Function that reverses a listint_t linked list.
 12- Function that prints a listint_t linked list.
+13- Function that frees a listint_t list.
